@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Five Text Boxes</title>
+  <style>
+    body {
+      background-color: #ADD8E6; /* baby blue */
+      color: #1a1a1a;
+      font-family:Arial, Helvetica, sans-serif sans-serif;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .top-box {
+      width: 80%;
+      height: 100px;
+      background-color: white;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 40px;
+      font-size: 40px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgb(0, 162, 255);
+    }
+    .box-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      justify-items: center;
+    }
+    .picture-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      justify-items: center;
+    }
+    .text-box textarea {
+      width: 300px;
+      height: 200px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      resize: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #f9f9f9;
+    }
+    img {
+      width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-box">My Summer Institute Website!                       
+ </div>
+  <div class="box-container">
+    <div class="text-box"><textarea readonly>The first thing that we did in Lolo Uila that I found intreasting was when we made a PB&J sandwitch by giving our kumu specfic directions to make it. This activity represented lolo uila because it taught us to give specfic instrutions when coding or asking ai to make sure your code or ai does the right things.
+       </textarea></div> 
+    <div class="text-box"><textarea readonly>The second thing we did in Lolo Uila is that we did is that we learned how to wire the adruino code. This taught me how to wire adruino with things like lcd screens and LED lights. This relates to lolo uila or computer science because wiring and coding these programs represent the basic computer science. </textarea></div>
+    <div class="text-box"><textarea readonly>In residential, the thing that we did was a scavenger hunt. This was fun to me because I liked figuring out the clues for each location and using the map to guide us.
+
+    </textarea></div>
+    <div class="text-box"><textarea readonly>The final thing we did is a news paper. This was kind of fun because designing and making the outfits where fun but being the model was not. I still  enjoyed it though because it was fun seeing other peoples websites </textarea></div>
+    
+  </div>
+
+  <div class="picture-container">
+    <div class="picture-box">
+      <img src="Picture 1.jpg" alt="Test">
+    </div>
+    <div class="picture-box">
+      <img src="Picture2.jpg" alt="Test">
+    </div>
+    
+  </div>
+    
+</body>
+</html>
+
